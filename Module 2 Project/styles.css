@@ -132,3 +132,14 @@ h1 {
   align-items: flex-end;
   padding-bottom: 20px;
 }
+
+footer {
+  background-color: bisque;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 30px;
+}
+footer a {
+  display: block;
+  padding: 20px;
+}
