@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500&family=Roboto&family=Tajawal:wght@700&display=swap');
+
+$font-logo: "Tajawal", sans-serif;
+$font-display: "Nunito-Sans", sans-serif;
+$font-body: "Roboto", sans-serif;
+
+$color-primary: rgb(32, 28, 131);
+$color-secondary: rgb(2, 159, 250);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-primary;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+nav {
+    height: 10vh;
+    background-color: white;
+    padding: 0px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-family: $font-logo;
+    font-size: 50px;
+}
+
+#login {
+    font-family: $font-display;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid $color-primary;
+    border-radius: 15px;
+    padding: 20px;
+}
+
