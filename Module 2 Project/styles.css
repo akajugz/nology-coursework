@@ -57,7 +57,7 @@ h1 {
   align-items: center;
 }
 
-#content h2 {
+#heading h2 {
   font-family: "Roboto", sans-serif;
   color: #201c83;
   font-size: 25px;
@@ -68,7 +68,7 @@ h1 {
   align-items: center;
   padding: 20px;
 }
-#content h3 {
+#heading h3 {
   font-family: "Roboto", sans-serif;
   color: #201c83;
   font-size: 20px;
@@ -78,7 +78,7 @@ h1 {
   align-items: center;
   padding: 20px;
 }
-#content #tag-line {
+#heading #tag-line {
   color: #029ffa;
 }
 
@@ -93,4 +93,42 @@ h1 {
   background-color: #201c83;
   border-radius: 10px;
   padding: 15px 40px;
+}
+
+#tag {
+  flex-direction: column;
+}
+#tag h3 {
+  text-align: center;
+  padding: 30px;
+}
+
+.eg-left {
+  display: flex;
+}
+.eg-left .left-text {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.eg-left .right-image {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+
+.eg-right {
+  display: flex;
+}
+.eg-right .right-text {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.eg-right .left-image {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  padding-bottom: 20px;
 }

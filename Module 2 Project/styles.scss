@@ -65,7 +65,7 @@ h1 {
     align-items: center;
 }
 
-#content {
+#heading {
     h2 {
         font-family: $font-body;
         color: $color-primary;
@@ -108,3 +108,47 @@ h1 {
     }
 }
 
+
+#tag {
+    flex-direction: column;
+
+    h3 {
+        text-align: center;
+        padding: 30px;
+    }
+}
+
+
+.eg-left {
+    display: flex;
+
+    .left-text {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .right-image {
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+        padding-bottom: 20px;
+    }
+}
+
+.eg-right {
+    display: flex;
+
+    .right-text {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .left-image {
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+        padding-bottom: 20px;
+    }
+}
