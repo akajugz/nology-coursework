@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500&family=Roboto&family=Tajawal:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Nunito+Sans:wght@500&family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -24,15 +24,73 @@ nav {
 }
 
 #logo {
-  font-family: "Tajawal", sans-serif;
+  font-family: "Neucha" cursive;
   font-size: 50px;
 }
 
 #login {
+  display: block;
+  width: 100px;
+  text-align: center;
+  padding: 10px 20px;
   font-family: "Nunito-Sans", sans-serif;
   font-size: 20px;
   font-weight: bold;
   border: 2px solid #201c83;
   border-radius: 15px;
+}
+
+h1 {
+  font-family: "Nunito-Sans", sans-serif;
+  color: #029ffa;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
+}
+
+#screenshot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content h2 {
+  font-family: "Roboto", sans-serif;
+  color: #201c83;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+#content h3 {
+  font-family: "Roboto", sans-serif;
+  color: #201c83;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+#content #tag-line {
+  color: #029ffa;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button a {
+  color: white;
+  border: 2px solid #201c83;
+  background-color: #201c83;
+  border-radius: 10px;
+  padding: 15px 40px;
 }
